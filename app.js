@@ -12,5 +12,6 @@ app.get('/', (req, res) => {
 
 const port = process.env.PORT || 3000;
 app.listen(port, () => {
-    console.log(`Server started on http://localhost:${port}`);
-});
+    console.log(`Server started on http://localhost:${port}`); // se usan comillas invertidas porque es una manera de concatenar 
+});                                                            // Server started on http://localhost: con port, agregandole & y {} 
+
