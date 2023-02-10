@@ -1,0 +1,24 @@
+body {
+    font-family: 'Lato', sans-serif;
+    font-size: 12px;
+}
+
+.encabezado {
+    background-color: #EAC926;
+}
+
+h3 {
+    font-size: 24px;
+}
+
+.precios {
+    font-size: 18px;
+}
+
+.descuentos { 
+    font-size: 16px;
+}
+
+.descripciones {
+    font-size: 16px;
+}
