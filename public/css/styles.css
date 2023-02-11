@@ -15,10 +15,16 @@ h3 {
     font-size: 18px;
 }
 
-.descuentos { 
+.descuentos, .descripciones { 
     font-size: 16px;
 }
 
-.descripciones {
-    font-size: 16px;
+#lista a {
+    text-decoration: none;
+    color:black;
+}
+
+.burger-menu i {
+    background-color: #1259c3;
+    color: #ebebeb;
 }
