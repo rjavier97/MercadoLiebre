@@ -3,10 +3,39 @@ body {
     font-size: 12px;
 }
 
+/* Header */
 .encabezado {
     background-color: #EAC926;
 }
 
+.lista {
+    padding-left: 0%;
+}
+
+.lista a {
+    text-decoration: none;
+    color:black;
+}
+
+.burger-menu {
+    background-color: #1259c3;
+    margin-left: 45%;
+    color: #ebebeb;
+    width: 25px;
+    height: 25px;
+    border-radius: 3px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+/*.burger-menu i {
+    font-size: 50px;
+    color: #ebebeb;
+    background-color: #1259c3;
+} */
+
+/* Main */
 h3 {
     font-size: 24px;
 }
@@ -19,12 +48,19 @@ h3 {
     font-size: 16px;
 }
 
-#lista a {
-    text-decoration: none;
-    color:black;
+/* Footer */
+.footer-section {
+    margin-top: 0px;
 }
 
-.burger-menu i {
-    background-color: #1259c3;
-    color: #ebebeb;
+.icono-footer {
+    margin-bottom: 10px;
+}
+.icono-footer i {
+    font-size: 2em;
+    color: #1259c3;
+}
+
+footer section article p {
+    margin-top: -15px;
 }
