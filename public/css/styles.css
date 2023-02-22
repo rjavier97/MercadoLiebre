@@ -1,3 +1,8 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
 body {
     font-family: 'Lato', sans-serif;
     font-size: 12px;
@@ -6,6 +11,7 @@ body {
 /* Header */
 .encabezado {
     background-color: #EAC926;
+    width: 100vw;
 }
 
 .lista {
@@ -17,16 +23,33 @@ body {
     color:black;
 }
 
+.burger-container {
+    display: flex;
+    justify-content: center;
+}
+
 .burger-menu {
     background-color: #1259c3;
-    margin-left: 45%;
-    color: #ebebeb;
-    width: 25px;
-    height: 25px;
-    border-radius: 3px;
+    color: white;
+    width: 40px;
+    height: 40px;
+    margin: 5px;
+    border-radius: 5px;
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
+}
+
+
+.contenedor-banner {
+    width: 100vw;
+    display: flex;
+    justify-content: flex-start;
+    align-items: stretch;  
+}
+
+.banner {
+    width: 100%;
 }
 
 /*.burger-menu i {
@@ -36,6 +59,19 @@ body {
 } */
 
 /* Main */
+main {
+    display: flex;
+    flex-direction: column;
+    background-color: #ebebeb;
+    justify-content: center;
+    align-items: center;
+}
+
+.contenedor-main {
+    width: 90vw;
+
+}
+
 h3 {
     font-size: 24px;
 }
